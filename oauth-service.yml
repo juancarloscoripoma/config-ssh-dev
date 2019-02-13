@@ -27,8 +27,8 @@ spring:
     initialize: true
     separator: ^
     continueOnError: false
-    schema: classpath:/db-scripts/0.0.1/schema.sql
-    data: classpath:/db-scripts/0.0.1/data.sql
+    schema: classpath:/db-scripts/0.0.1/1.schema.sql
+    data: classpath:/db-scripts/0.0.1/2.data.sql
 #
   jpa:
     database: MYSQL
@@ -43,7 +43,7 @@ logging:
 
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
   level: 
-    com.ston.vipay.oauth: DEBUG
+    com.soft.cli.oauth: DEBUG
 
   # Logger-specific levels.
   loggers:
