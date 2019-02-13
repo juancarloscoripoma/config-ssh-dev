@@ -23,15 +23,15 @@ spring:
 # Datasource and JPA configuration to be used for using the same tokenstore as the authorization server for
 # the defined resource server. Note that there can't be 2 different root nodes, so datasource falls under the "spring" node.
   datasource:
-    url: jdbc:mysql://localhost:3306/vi_pay
+    url: jdbc:mysql://localhost:3306/clientdb
     username: root
     password: mysql
     driver-class: com.mysql.jdbc.Driver
     initialize: true
     separator: ^
     continueOnError: false
-    schema: classpath:/db-scripts/0.0.1/schema.sql
-    data: classpath:/db-scripts/0.0.1/masterData.sql
+    schema: classpath:/sql/1.InitTable.sql
+    data: classpath:/sql/2.insertData.sql
 #
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
