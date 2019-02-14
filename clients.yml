@@ -62,8 +62,8 @@ mail:
     host: smtp.gmail.com
     port: 587
   support:
-    username: lperez.transoft@gmail.com
-    password: Transoft1!
+    username: jcarlos.soft@gmail.com
+    password: Tsoft1!
 # Logging settings.
 logging:
 

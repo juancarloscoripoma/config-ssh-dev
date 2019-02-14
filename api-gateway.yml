@@ -65,7 +65,7 @@ zuul:
   sensitiveHeaders:
   routes:
     vi-pay:
-      path: /pay/**
+      path: /client-be/**
       serviceId: vi-pay
     ston-query:
       path: /stonq/**
