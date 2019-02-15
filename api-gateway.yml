@@ -64,9 +64,9 @@ zuul:
     socket-timeout-millis: 180000
   sensitiveHeaders:
   routes:
-    vi-pay:
-      path: /client-be/**
-      serviceId: vi-pay
+    clients:
+      path: /clientbe/**
+      serviceId: clients
     ston-query:
       path: /stonq/**
       serviceId: ston-query  
